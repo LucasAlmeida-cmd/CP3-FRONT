@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sucesso {
+  color: #0b700b;
+  font-weight: 500;
+  background-color: #8bea8b;
+  border: 2px solid #0b700b;
+}
+
+.mensagem-erro {
+  color: #c61523;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.fa-regular {
+  cursor: pointer;
+  user-select: none;
+  margin-top: 3%;
+}
+
+#div-login {
+  display: flex;
+  justify-content: center;
+
+  .quadrado {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    background-color: #eff4f0;
+    border: solid black 3px;
+    border-radius: 20px;
+    margin: 30px;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 2rem;
+  }
+  .formatacao-entrada {
+    margin-left: 50px;
+    height: 60px;
+    width: 400px;
+    border-radius: 50px;
+    font-size: 3rem;
+  }
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 2rem;
+  }
+  button {
+    display: block;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: #0046c7;
+    color: #fff;
+    font-size: 1.75rem;
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+  .fa-regular {
+    cursor: pointer;
+    user-select: none;
+  }
+}
