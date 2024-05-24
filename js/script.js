@@ -26,6 +26,7 @@ function validaCampos(input1, input2) {
                 elMsg.innerText = "";
                 window.location.href = "../index.html";
             }, 3000);
+            
             return false;
         }
     }
