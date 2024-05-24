@@ -27,10 +27,18 @@
   margin-top: 3%;
 }
 
+.container{
+  background-image: url("../img/bg-login.jpg");
+  background-size: cover;
+}
+
 main {
   height: 100%;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
 }
+
+
 
 
 #div-login {

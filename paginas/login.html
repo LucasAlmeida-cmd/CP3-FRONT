@@ -15,44 +15,46 @@
     <title>CP3</title>
   </head>
   <body>
-    <main>
-      <div id="div-login">
-        <div class="quadrado">
-          <form
-            action="#"
-            method="get"
-            onsubmit="return validaCampos(this.idEmail, this.idSenha)"
-          >
-            <h1>Acessar Conta</h1>
-            <p>Preencha seus dados de acesso para continuar.</p>
-            <div>
-              <h2>Conta:</h2>
-              <input
-                id="idEmail"
-                class="formatacao-entrada"
-                type="email"
-                name="email"
-                placeholder="Email"
-              />
-            </div>
-            <div>
-              <h3>Senha:</h3>
-              <input
-                id="idSenha"
-                class="formatacao-entrada"
-                type="password"
-                name="senha"
-                placeholder="Senha"
-              />
-              <i class="fa-regular fa-eye-slash"></i>
-            </div>
-            <div class="botao-enviar">
-              <button type="submit">Enviar</button>
-            </div>
-            <div class="mensagem"></div>
-          </form>
+    <div class="container">
+      <main>
+        <div id="div-login">
+          <div class="quadrado">
+            <form
+              action="#"
+              method="get"
+              onsubmit="return validaCampos(this.idEmail, this.idSenha)"
+            >
+              <h1>Acessar Conta</h1>
+              <p>Preencha seus dados de acesso para continuar.</p>
+              <div>
+                <h2>Conta:</h2>
+                <input
+                  id="idEmail"
+                  class="formatacao-entrada"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div>
+                <h3>Senha:</h3>
+                <input
+                  id="idSenha"
+                  class="formatacao-entrada"
+                  type="password"
+                  name="senha"
+                  placeholder="Senha"
+                />
+                <i class="fa-regular fa-eye-slash"></i>
+              </div>
+              <div class="botao-enviar">
+                <button type="submit">Enviar</button>
+              </div>
+              <div class="mensagem"></div>
+            </form>
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
   </body>
 </html>
