@@ -27,9 +27,19 @@
   margin-top: 3%;
 }
 
+main {
+  height: 100%;
+  width: 100%;
+}
+
+
 #div-login {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
 
   .quadrado {
     display: flex;
@@ -54,6 +64,7 @@
     text-align: center;
     font-weight: bold;
     margin-top: 30px;
+    margin-bottom: 10px;
     font-size: 2rem;
   }
   .formatacao-entrada {
@@ -68,6 +79,12 @@
     font-weight: bold;
     margin-top: 30px;
     font-size: 2rem;
+    margin-bottom: 10px;
+
+  }
+
+  input{
+    padding: 0 5%;
   }
 
   .fa-regular {
@@ -80,6 +97,13 @@
   }
 }
 
+.botao-enviar{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 button {
   padding: 5px 25px;
   border-radius: 5px;
@@ -87,7 +111,6 @@ button {
   background-color: #0046c7;
   color: #fff;
   font-size: 1.75rem;
-  margin-left: 8.9vw;
   margin-top: 30px;
 }
 
